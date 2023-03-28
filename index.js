@@ -1,7 +1,7 @@
 // initialize variables
 const fs = require('fs'),
       inquirer = require('inquirer'),
-      generateSvg = require('./utils/generateSvg.js');
+      generateSvg = require('./lib/generateSvg.js');
 
 const questions = () => {
     return inquirer.prompt([
