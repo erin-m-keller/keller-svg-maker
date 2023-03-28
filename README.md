@@ -1,14 +1,14 @@
   # SVG Logo Maker
   
   ## Description 
-  This application was created with [Node.js](https://nodejs.org/en), [Node.js File System Module](https://www.w3schools.com/nodejs/nodejs_filesystem.asp), and [Inquirer](https://www.npmjs.com/package/inquirer). The application generates a SVG file based on user input.
+  This application was created with [Node.js](https://nodejs.org/en), [Node.js File System Module](https://www.w3schools.com/nodejs/nodejs_filesystem.asp), [Inquirer](https://www.npmjs.com/package/inquirer), and [Jest](https://jestjs.io/) (for testing). The application generates an SVG file based on user input.
   
   ## Table of Contents
   * [User Story](#user-story)
   * [Acceptance Criteria](#acceptance-criteria)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Generated File Example](#generated-file-example)
+  * [Generated File Examples](#generated-file-examples)
   * [License](#license)
   * [Contributors](#contributors)
   * [Outside Resources](#outside-resources)
@@ -46,14 +46,14 @@
     git clone git@github.com:erin-m-keller/keller-svg-maker.git
   ```
   * Install the dependencies.
-  ``` bash
+  ```bash
     npm i
   ```
   * Start the application.
-  ``` bash
-    npm start
+  ```md
+    node index.js OR npm start
   ```
-  > Answer the prompts to generate a SVG file.
+  > Answer the prompts to generate an SVG file.
   
   ## Usage
   
@@ -61,8 +61,11 @@
 
   > Click play to watch the video.
 
-  ## Generated File Example
-  // TODO: Add Generated SVG here
+  ## Generated File Examples
+  
+  ![Circle SVG Example](./examples/circle.svg)
+  ![Square SVG Example](./examples/square.svg)
+  ![Triangle SVG Example](./examples/triangle.svg)
   
   ## License 
   [![MIT license](https://img.shields.io/badge/License-MIT-purple.svg)](https://lbesson.mit-license.org/)

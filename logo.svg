@@ -1,8 +1,8 @@
 
         <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="150" cy="100" r="80" fill="#191919"/>
+            <rect x="50" y="50" width="200" height="200" fill="#f5e5fc"/>
             
-        <text x="150" y="100" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="pink">EMK</text>
+        <text x="150" y="125" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="7b3e19">EMK</text>
     
         </svg>
     
