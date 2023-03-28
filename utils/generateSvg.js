@@ -32,13 +32,29 @@ function generateSquare (title,titleColor,shapeColor) {
     return squareSvg;
 }
 
+function generateTriangle (title,titleColor,shapeColor) {
+    if (hexRegex.test(titleColor)) {
+        titleColor = "#" + titleColor;
+    }
+    if (hexRegex.test(shapeColor)) {
+        shapeColor = "#" + shapeColor;
+    }
+    const triangleSvg = `
+        <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="150,50 50,150 250,150" fill="${shapeColor}"/>
+            <text x="150" y="100" text-anchor="middle" dominant-baseline="central" font-size="24" fill="${titleColor}">${title}</text>
+        </svg>
+    `;
+    return triangleSvg;
+}
+
 const generateSvg = data => {
     if (data.shape === 'circle') {
         return generateCircle(data.title,data.titleColor,data.shapeColor);
     } else if (data.shape === 'square') {
         return generateSquare(data.title,data.titleColor,data.shapeColor);
     } else if (data.shape === 'triangle') {
-        return generateCircle(data.title,data.titleColor,data.shapeColor);
+        return generateTriangle(data.title,data.titleColor,data.shapeColor);
     }
 };
   
