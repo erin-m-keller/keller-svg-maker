@@ -14,7 +14,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'titleColor',
-            message: 'Please enter a color keyword or hexidecimal number for the color of the text.',
+            message: 'Please enter a color keyword or hexidecimal number (excluding #) for the color of the text.',
             validate: validateColor // validate the input is a color keyword or valid hexidecimal
         },
         {
@@ -28,7 +28,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'shapeColor',
-            message: 'Please enter a color keyword or hexidecimal number for the color of the shape.',
+            message: 'Please enter a color keyword or hexidecimal number (excluding #) for the color of the shape.',
             validate: validateColor // validate the input is a color keyword or valid hexidecimal
         }
     ])
