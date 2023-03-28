@@ -8,6 +8,7 @@
   * [Acceptance Criteria](#acceptance-criteria)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Tests](#tests)
   * [Generated File Examples](#generated-file-examples)
   * [License](#license)
   * [Contributors](#contributors)
@@ -60,6 +61,15 @@
   // TODO: Add video here
 
   > Click play to watch the video.
+
+  ## Tests 
+  * Ensure you have installed the application.
+  * Run the test.
+  ```
+    npm test
+  ```
+  * Expected output.
+    ![Test Result](./assets/images/expected-result.png)  
 
   ## Generated File Examples
   
