@@ -63,8 +63,8 @@
 
   ## Generated File Examples
   
-  ![Circle SVG Example](./examples/circle.svg)
-  ![Square SVG Example](./examples/square.svg)
+  ![Circle SVG Example](./examples/circle.svg)  
+  ![Square SVG Example](./examples/square.svg)  
   ![Triangle SVG Example](./examples/triangle.svg)
   
   ## License 
