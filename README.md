@@ -1,7 +1,7 @@
   # SVG Logo Maker
   
   ## Description 
-  This application was created with [Node.js](https://nodejs.org/en), [Node.js File System Module](https://www.w3schools.com/nodejs/nodejs_filesystem.asp), [Inquirer](https://www.npmjs.com/package/inquirer), and [Jest](https://jestjs.io/) (for testing). The application generates an SVG file based on user input.
+  This application was created with [Node.js](https://nodejs.org/en), [Node.js File System Module](https://www.w3schools.com/nodejs/nodejs_filesystem.asp), [Inquirer](https://www.npmjs.com/package/inquirer), and [Jest](https://jestjs.io/). The application generates an SVG file based on user input.
   
   ## Table of Contents
   * [User Story](#user-story)
