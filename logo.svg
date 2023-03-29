@@ -1,8 +1,8 @@
 
         <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-            <rect x="50" y="50" width="200" height="200" fill="blue"/>
+            <rect x="50" y="50" width="200" height="200" fill="red"/>
             
-        <text x="150" y="125" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="red">EMK</text>
+        <text x="150" y="125" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="blue">EMK</text>
     
         </svg>
     
