@@ -66,7 +66,7 @@
   
   https://user-images.githubusercontent.com/2955501/228401999-54a5c330-e89e-4480-9376-84674d69106e.mp4
   
-  > Click play to watch the video.
+  > Click play to watch the video. Enjoy the music!
 
   ## Tests 
   * Ensure you have installed the application.
